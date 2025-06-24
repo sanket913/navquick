@@ -68,13 +68,13 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
                   <Mail className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">sanket9526@gmail.com</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">navquick@gmail.com</span>
               </div>
               <div className="flex items-center group">
                 <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
                   <Phone className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">+91 9904491017</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">+91 9999999999</span>
               </div>
               <button 
                 onClick={() => openWhatsApp("Hi! I want to know more about NavQuick products and services.")}
